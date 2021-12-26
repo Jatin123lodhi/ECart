@@ -1,0 +1,30 @@
+#breadcrum{
+	/* border: 1px solid red ; */
+	height: 40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:1.3em;
+	padding:2px;
+}
+
+#breadcrum .bred{
+	text-decoration:none;
+	color:#757575;
+	border:1px solid white; 
+	padding: 5px;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius:20px;
+}
+#breadcrum .bred:hover{
+	background-color: #5c5c5c;
+	color:white;
+
+}
+
+#breadcrum a:hover{
+	border:1px solid #909090 ;
+	color:white;
+	/* font-weight:bold; */
+}

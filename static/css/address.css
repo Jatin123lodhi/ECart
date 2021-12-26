@@ -1,0 +1,79 @@
+#address_outer_div{
+	height: 630px;
+	border: 1px solid;
+	display:flex;
+	align-items:center;
+	justify-content:center;		
+}
+#address_outer_div div {
+    /* border: 1px solid green; */
+    width: 460px;
+    height: 570px;
+}
+
+#srch_res{
+	border: 1px solid #999;
+	width: 260px;
+	position: absolute;
+	top: 335px;
+	background-color: white;
+	display: none;
+	z-index: 1000;
+	font-size: 25px;
+	cursor:pointer;
+	padding:10px 0px 10px 0px;
+	 
+}
+#srch_res div{
+	border: 1px solid white; 
+	width:260px;
+
+	
+}
+#srch_res div:hover{
+	border: 1px solid yellow;
+
+}
+
+ 
+#form_box{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+}
+#signup_table{
+	/* border: 1px solid; */
+	padding: 10px;
+	
+}
+#signup_table td{
+	/* border:2px solid red; */
+	padding: 10px;
+	text-align:center;
+	
+}
+#signup_table .input{
+	padding: 20px;
+	width: 330px;
+	font-size:1.4em;
+}
+#signup_table #address{
+	padding: 20px;
+	width: 330px;
+	
+	font-size:1.4em;
+}
+#signup_btn{
+	width: 170px;
+	padding: 10px;
+	font-size:1.6em;
+	background:black;
+	color:white;
+
+}
+#signup_table caption{
+	font-size: 2em;
+	margin-bottom: 10px;
+	font-weight:bold;
+}

@@ -1,0 +1,37 @@
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
+.userNm_err{
+	/* border:1px solid red; */
+	position:absolute;
+	top:380px;
+	left:570px;
+	color:red;
+	
+}
+.eml_err{
+	/* border:1px solid red; */
+	position:absolute;
+	top:480px;
+	left:570px;
+	color:red;
+	
+}
+.pass_err{
+	/* border:1px solid red; */
+	position:absolute;
+	top:576px;
+	left:570px;
+	color:red;
+	
+}
+.repass_err{
+	position:absolute;
+	top:674px;
+	left:570px;
+	color:red;
+	
+}

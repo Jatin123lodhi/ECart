@@ -1,0 +1,10 @@
+#profpic_fld{
+	border:1px solid black;
+}
+#profpic_outer_div{
+	height: 430px;
+	border: 1px solid;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
